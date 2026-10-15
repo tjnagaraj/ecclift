@@ -1,0 +1,42 @@
+{
+  "purpose": "EccLift completeness on all connected graphs of order 2..7",
+  "enumeration": "networkx graph_atlas_g (one graph per isomorphism class, 0..7 nodes), filtered to connected graphs of order 2..7",
+  "n_graphs": 995,
+  "n_distinct_ecclift_values": 995,
+  "collision_buckets": 0,
+  "collision_pairs": 0,
+  "ecclift_complete": true,
+  "per_order": {
+    "2": {
+      "connected_graphs": 1,
+      "distinct_ecclift_values": 1,
+      "collision_pairs_within_order": 0
+    },
+    "3": {
+      "connected_graphs": 2,
+      "distinct_ecclift_values": 2,
+      "collision_pairs_within_order": 0
+    },
+    "4": {
+      "connected_graphs": 6,
+      "distinct_ecclift_values": 6,
+      "collision_pairs_within_order": 0
+    },
+    "5": {
+      "connected_graphs": 21,
+      "distinct_ecclift_values": 21,
+      "collision_pairs_within_order": 0
+    },
+    "6": {
+      "connected_graphs": 112,
+      "distinct_ecclift_values": 112,
+      "collision_pairs_within_order": 0
+    },
+    "7": {
+      "connected_graphs": 853,
+      "distinct_ecclift_values": 853,
+      "collision_pairs_within_order": 0
+    }
+  },
+  "collision_examples_graph6": []
+}

@@ -1,0 +1,100 @@
+{
+  "purpose": "search for a counterexample to the EccLift converse conjecture (conj:char): EccLift ties but (VDD,emdp) differs",
+  "order7_global_search": {
+    "label": "connected atlas graphs order in [7]",
+    "n_graphs": 853,
+    "n_lift_disconnected_skipped": 0,
+    "n_ecclift_tie_buckets": 0,
+    "n_tie_pairs_checked": 0,
+    "n_counterexamples": 0,
+    "counterexamples": []
+  },
+  "order7_counterexample_details": [],
+  "brec_converse_scan": {
+    "per_category": {
+      "Basic": {
+        "ecclift_tie_pairs": 0,
+        "converse_counterexamples": 0
+      },
+      "Regular": {
+        "ecclift_tie_pairs": 2,
+        "converse_counterexamples": 0
+      },
+      "Extension": {
+        "ecclift_tie_pairs": 11,
+        "converse_counterexamples": 0
+      },
+      "CFI": {
+        "ecclift_tie_pairs": 90,
+        "converse_counterexamples": 0
+      },
+      "4-Vertex": {
+        "ecclift_tie_pairs": 20,
+        "converse_counterexamples": 0
+      },
+      "Distance-Regular": {
+        "ecclift_tie_pairs": 20,
+        "converse_counterexamples": 0
+      }
+    },
+    "counterexamples": [],
+    "total_ecclift_tie_pairs": 143,
+    "total_converse_counterexamples": 0
+  },
+  "regular_pool_scan": {
+    "pool_size": 12704,
+    "noniso_tie_pairs": 29,
+    "converse_ce_coarse": 0,
+    "converse_ce_rowprofile": 0,
+    "row_ce_examples": [],
+    "forward_gap_coarse_buckets": 14,
+    "forward_gap_witnesses": [
+      {
+        "n": 11,
+        "m": 33,
+        "g6_G": "Jxq[Xlz}Am_",
+        "g6_H": "JP^unPVenQ_",
+        "coarse_VDD_emdp_equal": true,
+        "ecclift_differs": true,
+        "row_profile_differs": true
+      },
+      {
+        "n": 11,
+        "m": 33,
+        "g6_G": "Jzz@h]]VSf_",
+        "g6_H": "J]vdc[jVjj?",
+        "coarse_VDD_emdp_equal": true,
+        "ecclift_differs": true,
+        "row_profile_differs": true
+      },
+      {
+        "n": 11,
+        "m": 33,
+        "g6_G": "J\\Y}Qv`tg~?",
+        "g6_H": "Jl_ndx{va^?",
+        "coarse_VDD_emdp_equal": true,
+        "ecclift_differs": true,
+        "row_profile_differs": true
+      },
+      {
+        "n": 11,
+        "m": 33,
+        "g6_G": "Jna{P^YXzu?",
+        "g6_H": "JVvUZIxHzU_",
+        "coarse_VDD_emdp_equal": true,
+        "ecclift_differs": true,
+        "row_profile_differs": true
+      },
+      {
+        "n": 11,
+        "m": 33,
+        "g6_G": "JxtI}i{H|e_",
+        "g6_H": "JTt~BlYxKV_",
+        "coarse_VDD_emdp_equal": true,
+        "ecclift_differs": true,
+        "row_profile_differs": true
+      }
+    ],
+    "note": "CONVERSE (EccLift tie => profiles equal) holds with ZERO counterexamples against both the coarse committed (VDD,emdp) and the paper's finer lift-row profile. The FORWARD direction of the COARSE committed invariant FAILS at order>=11 (fgap witnesses): equal coarse (VDD,emdp) yet EccLift differs -- because the coarse vertex_distance_distribution drops the by-vertex vertex-to-edge min terms that the paper's LaTeX rho(u) keeps. The paper's LaTeX Theorem (finer rho(u)) is unaffected; only the code proxy is coarse."
+  }
+}

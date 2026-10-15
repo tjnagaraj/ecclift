@@ -1,0 +1,15 @@
+EccLift runtime/memory scaling (committed ecclift_profile; random r-regular graphs, seed 7)
+degree |     n |    |E| | median time (s) | peak mem (MB) | empirical exponent vs prev size
+     3 |   100 |    150 |          0.0188 |          0.69 | --
+     3 |   200 |    300 |          0.0581 |           2.4 | 1.63
+     3 |   400 |    600 |          0.2433 |          8.77 | 2.07
+     3 |   800 |   1200 |          1.1582 |         33.73 | 2.25
+     3 |  1600 |   2400 |          4.9403 |        131.45 | 2.09
+     3 |  3200 |   4800 |         21.2047 |        519.27 | 2.1
+     8 |   100 |    400 |          0.0664 |          2.44 | --
+     8 |   200 |    800 |          0.2364 |           8.9 | 1.83
+     8 |   400 |   1600 |          1.1441 |         33.97 | 2.27
+     8 |   800 |   3200 |           5.052 |        131.92 | 2.14
+     8 |  1600 |   6400 |         21.8781 |        520.24 | 2.11
+     8 |  3200 |  12800 |         91.7764 |       2064.06 | 2.07
+O(|E|^2) predicts exponent ~2.0 between successive sizes at fixed degree.

@@ -1,0 +1,102 @@
+{
+  "seed": 7,
+  "runs_per_point": 3,
+  "rows": [
+    {
+      "degree": 3,
+      "n": 100,
+      "edges": 150,
+      "median_sec": 0.0188,
+      "peak_mem_mb": 0.69,
+      "empirical_exponent_vs_prev": null
+    },
+    {
+      "degree": 3,
+      "n": 200,
+      "edges": 300,
+      "median_sec": 0.0581,
+      "peak_mem_mb": 2.4,
+      "empirical_exponent_vs_prev": 1.63
+    },
+    {
+      "degree": 3,
+      "n": 400,
+      "edges": 600,
+      "median_sec": 0.2433,
+      "peak_mem_mb": 8.77,
+      "empirical_exponent_vs_prev": 2.07
+    },
+    {
+      "degree": 3,
+      "n": 800,
+      "edges": 1200,
+      "median_sec": 1.1582,
+      "peak_mem_mb": 33.73,
+      "empirical_exponent_vs_prev": 2.25
+    },
+    {
+      "degree": 3,
+      "n": 1600,
+      "edges": 2400,
+      "median_sec": 4.9403,
+      "peak_mem_mb": 131.45,
+      "empirical_exponent_vs_prev": 2.09
+    },
+    {
+      "degree": 3,
+      "n": 3200,
+      "edges": 4800,
+      "median_sec": 21.2047,
+      "peak_mem_mb": 519.27,
+      "empirical_exponent_vs_prev": 2.1
+    },
+    {
+      "degree": 8,
+      "n": 100,
+      "edges": 400,
+      "median_sec": 0.0664,
+      "peak_mem_mb": 2.44,
+      "empirical_exponent_vs_prev": null
+    },
+    {
+      "degree": 8,
+      "n": 200,
+      "edges": 800,
+      "median_sec": 0.2364,
+      "peak_mem_mb": 8.9,
+      "empirical_exponent_vs_prev": 1.83
+    },
+    {
+      "degree": 8,
+      "n": 400,
+      "edges": 1600,
+      "median_sec": 1.1441,
+      "peak_mem_mb": 33.97,
+      "empirical_exponent_vs_prev": 2.27
+    },
+    {
+      "degree": 8,
+      "n": 800,
+      "edges": 3200,
+      "median_sec": 5.052,
+      "peak_mem_mb": 131.92,
+      "empirical_exponent_vs_prev": 2.14
+    },
+    {
+      "degree": 8,
+      "n": 1600,
+      "edges": 6400,
+      "median_sec": 21.8781,
+      "peak_mem_mb": 520.24,
+      "empirical_exponent_vs_prev": 2.11
+    },
+    {
+      "degree": 8,
+      "n": 3200,
+      "edges": 12800,
+      "median_sec": 91.7764,
+      "peak_mem_mb": 2064.06,
+      "empirical_exponent_vs_prev": 2.07
+    }
+  ]
+}

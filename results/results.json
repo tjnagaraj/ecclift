@@ -1,0 +1,533 @@
+{
+  "generated": "premise-check for EccLift",
+  "cases": {
+    "headline_rook_shrikhande": {
+      "both_srg_16_6_2_2": true,
+      "lap_cospectral": true,
+      "non_isomorphic": true,
+      "ET_of_G_rook": "{48x16}",
+      "ET_of_G_shrikhande": "{48x16}",
+      "ET_of_G_ties": true,
+      "ET_of_lift_rook": "{1080x16, 1452x48}",
+      "ET_of_lift_shrikhande": "{1080x16, 1440x48}",
+      "ET_of_lift_separates": true,
+      "plain_Lap_separates": false,
+      "RWSE_separates": false
+    },
+    "sr_wall": [
+      {
+        "name": "srg(16,6,2,2) rook4x4_vs_shrikhande",
+        "lap_separates": false,
+        "rwse_separates": false,
+        "ET_of_G_separates": false,
+        "ecclift_separates": true
+      },
+      {
+        "name": "srg(28,12,6,4) T8_vs_Chang",
+        "lap_separates": false,
+        "rwse_separates": false,
+        "ET_of_G_separates": false,
+        "ecclift_separates": true
+      }
+    ],
+    "cospectral_audit": {
+      "n_cospectral_pairs": 69,
+      "plain_Lap_ties": 69,
+      "RWSE_ties": 2,
+      "both_Lap_and_RWSE_tie": 2,
+      "ecclift_separates_total": 69,
+      "ecclift_separates_where_Lap_and_RWSE_both_tie": 2,
+      "per_pair": [
+        {
+          "name": "rook4x4_vs_shrikhande",
+          "n": 16,
+          "lap_separates": false,
+          "rwse_separates": false,
+          "ecclift_separates": true
+        },
+        {
+          "name": "srg(28,12,6,4) T8_vs_Chang",
+          "n": 28,
+          "lap_separates": false,
+          "rwse_separates": false,
+          "ecclift_separates": true
+        },
+        {
+          "name": "atlas_n6_cospec_0",
+          "n": 6,
+          "lap_separates": false,
+          "rwse_separates": true,
+          "ecclift_separates": true
+        },
+        {
+          "name": "atlas_n6_cospec_1",
+          "n": 6,
+          "lap_separates": false,
+          "rwse_separates": true,
+          "ecclift_separates": true
+        },
+        {
+          "name": "atlas_n7_cospec_2",
+          "n": 7,
+          "lap_separates": false,
+          "rwse_separates": true,
+          "ecclift_separates": true
+        },
+        {
+          "name": "atlas_n7_cospec_3",
+          "n": 7,
+          "lap_separates": false,
+          "rwse_separates": true,
+          "ecclift_separates": true
+        },
+        {
+          "name": "atlas_n7_cospec_4",
+          "n": 7,
+          "lap_separates": false,
+          "rwse_separates": true,
+          "ecclift_separates": true
+        },
+        {
+          "name": "atlas_n7_cospec_5",
+          "n": 7,
+          "lap_separates": false,
+          "rwse_separates": true,
+          "ecclift_separates": true
+        },
+        {
+          "name": "atlas_n7_cospec_6",
+          "n": 7,
+          "lap_separates": false,
+          "rwse_separates": true,
+          "ecclift_separates": true
+        },
+        {
+          "name": "atlas_n7_cospec_7",
+          "n": 7,
+          "lap_separates": false,
+          "rwse_separates": true,
+          "ecclift_separates": true
+        },
+        {
+          "name": "atlas_n7_cospec_8",
+          "n": 7,
+          "lap_separates": false,
+          "rwse_separates": true,
+          "ecclift_separates": true
+        },
+        {
+          "name": "atlas_n7_cospec_9",
+          "n": 7,
+          "lap_separates": false,
+          "rwse_separates": true,
+          "ecclift_separates": true
+        },
+        {
+          "name": "atlas_n7_cospec_10",
+          "n": 7,
+          "lap_separates": false,
+          "rwse_separates": true,
+          "ecclift_separates": true
+        },
+        {
+          "name": "atlas_n7_cospec_11",
+          "n": 7,
+          "lap_separates": false,
+          "rwse_separates": true,
+          "ecclift_separates": true
+        },
+        {
+          "name": "atlas_n7_cospec_12",
+          "n": 7,
+          "lap_separates": false,
+          "rwse_separates": true,
+          "ecclift_separates": true
+        },
+        {
+          "name": "atlas_n7_cospec_13",
+          "n": 7,
+          "lap_separates": false,
+          "rwse_separates": true,
+          "ecclift_separates": true
+        },
+        {
+          "name": "atlas_n7_cospec_14",
+          "n": 7,
+          "lap_separates": false,
+          "rwse_separates": true,
+          "ecclift_separates": true
+        },
+        {
+          "name": "atlas_n7_cospec_15",
+          "n": 7,
+          "lap_separates": false,
+          "rwse_separates": true,
+          "ecclift_separates": true
+        },
+        {
+          "name": "atlas_n7_cospec_16",
+          "n": 7,
+          "lap_separates": false,
+          "rwse_separates": true,
+          "ecclift_separates": true
+        },
+        {
+          "name": "atlas_n7_cospec_17",
+          "n": 7,
+          "lap_separates": false,
+          "rwse_separates": true,
+          "ecclift_separates": true
+        },
+        {
+          "name": "atlas_n7_cospec_18",
+          "n": 7,
+          "lap_separates": false,
+          "rwse_separates": true,
+          "ecclift_separates": true
+        },
+        {
+          "name": "atlas_n7_cospec_19",
+          "n": 7,
+          "lap_separates": false,
+          "rwse_separates": true,
+          "ecclift_separates": true
+        },
+        {
+          "name": "atlas_n7_cospec_20",
+          "n": 7,
+          "lap_separates": false,
+          "rwse_separates": true,
+          "ecclift_separates": true
+        },
+        {
+          "name": "atlas_n7_cospec_21",
+          "n": 7,
+          "lap_separates": false,
+          "rwse_separates": true,
+          "ecclift_separates": true
+        },
+        {
+          "name": "atlas_n7_cospec_22",
+          "n": 7,
+          "lap_separates": false,
+          "rwse_separates": true,
+          "ecclift_separates": true
+        },
+        {
+          "name": "atlas_n7_cospec_23",
+          "n": 7,
+          "lap_separates": false,
+          "rwse_separates": true,
+          "ecclift_separates": true
+        },
+        {
+          "name": "atlas_n7_cospec_24",
+          "n": 7,
+          "lap_separates": false,
+          "rwse_separates": true,
+          "ecclift_separates": true
+        },
+        {
+          "name": "atlas_n7_cospec_25",
+          "n": 7,
+          "lap_separates": false,
+          "rwse_separates": true,
+          "ecclift_separates": true
+        },
+        {
+          "name": "atlas_n7_cospec_26",
+          "n": 7,
+          "lap_separates": false,
+          "rwse_separates": true,
+          "ecclift_separates": true
+        },
+        {
+          "name": "atlas_n7_cospec_27",
+          "n": 7,
+          "lap_separates": false,
+          "rwse_separates": true,
+          "ecclift_separates": true
+        },
+        {
+          "name": "atlas_n7_cospec_28",
+          "n": 7,
+          "lap_separates": false,
+          "rwse_separates": true,
+          "ecclift_separates": true
+        },
+        {
+          "name": "atlas_n7_cospec_29",
+          "n": 7,
+          "lap_separates": false,
+          "rwse_separates": true,
+          "ecclift_separates": true
+        },
+        {
+          "name": "atlas_n7_cospec_30",
+          "n": 7,
+          "lap_separates": false,
+          "rwse_separates": true,
+          "ecclift_separates": true
+        },
+        {
+          "name": "atlas_n7_cospec_31",
+          "n": 7,
+          "lap_separates": false,
+          "rwse_separates": true,
+          "ecclift_separates": true
+        },
+        {
+          "name": "atlas_n7_cospec_32",
+          "n": 7,
+          "lap_separates": false,
+          "rwse_separates": true,
+          "ecclift_separates": true
+        },
+        {
+          "name": "atlas_n7_cospec_33",
+          "n": 7,
+          "lap_separates": false,
+          "rwse_separates": true,
+          "ecclift_separates": true
+        },
+        {
+          "name": "atlas_n7_cospec_34",
+          "n": 7,
+          "lap_separates": false,
+          "rwse_separates": true,
+          "ecclift_separates": true
+        },
+        {
+          "name": "atlas_n7_cospec_35",
+          "n": 7,
+          "lap_separates": false,
+          "rwse_separates": true,
+          "ecclift_separates": true
+        },
+        {
+          "name": "atlas_n7_cospec_36",
+          "n": 7,
+          "lap_separates": false,
+          "rwse_separates": true,
+          "ecclift_separates": true
+        },
+        {
+          "name": "atlas_n7_cospec_37",
+          "n": 7,
+          "lap_separates": false,
+          "rwse_separates": true,
+          "ecclift_separates": true
+        },
+        {
+          "name": "atlas_n7_cospec_38",
+          "n": 7,
+          "lap_separates": false,
+          "rwse_separates": true,
+          "ecclift_separates": true
+        },
+        {
+          "name": "atlas_n7_cospec_39",
+          "n": 7,
+          "lap_separates": false,
+          "rwse_separates": true,
+          "ecclift_separates": true
+        },
+        {
+          "name": "atlas_n7_cospec_40",
+          "n": 7,
+          "lap_separates": false,
+          "rwse_separates": true,
+          "ecclift_separates": true
+        },
+        {
+          "name": "atlas_n7_cospec_41",
+          "n": 7,
+          "lap_separates": false,
+          "rwse_separates": true,
+          "ecclift_separates": true
+        },
+        {
+          "name": "atlas_n7_cospec_42",
+          "n": 7,
+          "lap_separates": false,
+          "rwse_separates": true,
+          "ecclift_separates": true
+        },
+        {
+          "name": "atlas_n7_cospec_43",
+          "n": 7,
+          "lap_separates": false,
+          "rwse_separates": true,
+          "ecclift_separates": true
+        },
+        {
+          "name": "atlas_n7_cospec_44",
+          "n": 7,
+          "lap_separates": false,
+          "rwse_separates": true,
+          "ecclift_separates": true
+        },
+        {
+          "name": "atlas_n7_cospec_45",
+          "n": 7,
+          "lap_separates": false,
+          "rwse_separates": true,
+          "ecclift_separates": true
+        },
+        {
+          "name": "atlas_n7_cospec_46",
+          "n": 7,
+          "lap_separates": false,
+          "rwse_separates": true,
+          "ecclift_separates": true
+        },
+        {
+          "name": "atlas_n7_cospec_47",
+          "n": 7,
+          "lap_separates": false,
+          "rwse_separates": true,
+          "ecclift_separates": true
+        },
+        {
+          "name": "atlas_n7_cospec_48",
+          "n": 7,
+          "lap_separates": false,
+          "rwse_separates": true,
+          "ecclift_separates": true
+        },
+        {
+          "name": "atlas_n7_cospec_49",
+          "n": 7,
+          "lap_separates": false,
+          "rwse_separates": true,
+          "ecclift_separates": true
+        },
+        {
+          "name": "atlas_n7_cospec_50",
+          "n": 7,
+          "lap_separates": false,
+          "rwse_separates": true,
+          "ecclift_separates": true
+        },
+        {
+          "name": "atlas_n7_cospec_51",
+          "n": 7,
+          "lap_separates": false,
+          "rwse_separates": true,
+          "ecclift_separates": true
+        },
+        {
+          "name": "atlas_n7_cospec_52",
+          "n": 7,
+          "lap_separates": false,
+          "rwse_separates": true,
+          "ecclift_separates": true
+        },
+        {
+          "name": "atlas_n7_cospec_53",
+          "n": 7,
+          "lap_separates": false,
+          "rwse_separates": true,
+          "ecclift_separates": true
+        },
+        {
+          "name": "atlas_n7_cospec_54",
+          "n": 7,
+          "lap_separates": false,
+          "rwse_separates": true,
+          "ecclift_separates": true
+        },
+        {
+          "name": "atlas_n7_cospec_55",
+          "n": 7,
+          "lap_separates": false,
+          "rwse_separates": true,
+          "ecclift_separates": true
+        },
+        {
+          "name": "atlas_n7_cospec_56",
+          "n": 7,
+          "lap_separates": false,
+          "rwse_separates": true,
+          "ecclift_separates": true
+        },
+        {
+          "name": "atlas_n7_cospec_57",
+          "n": 7,
+          "lap_separates": false,
+          "rwse_separates": true,
+          "ecclift_separates": true
+        },
+        {
+          "name": "atlas_n7_cospec_58",
+          "n": 7,
+          "lap_separates": false,
+          "rwse_separates": true,
+          "ecclift_separates": true
+        },
+        {
+          "name": "atlas_n7_cospec_59",
+          "n": 7,
+          "lap_separates": false,
+          "rwse_separates": true,
+          "ecclift_separates": true
+        },
+        {
+          "name": "atlas_n7_cospec_60",
+          "n": 7,
+          "lap_separates": false,
+          "rwse_separates": true,
+          "ecclift_separates": true
+        },
+        {
+          "name": "atlas_n7_cospec_61",
+          "n": 7,
+          "lap_separates": false,
+          "rwse_separates": true,
+          "ecclift_separates": true
+        },
+        {
+          "name": "atlas_n7_cospec_62",
+          "n": 7,
+          "lap_separates": false,
+          "rwse_separates": true,
+          "ecclift_separates": true
+        },
+        {
+          "name": "atlas_n7_cospec_63",
+          "n": 7,
+          "lap_separates": false,
+          "rwse_separates": true,
+          "ecclift_separates": true
+        },
+        {
+          "name": "atlas_n7_cospec_64",
+          "n": 7,
+          "lap_separates": false,
+          "rwse_separates": true,
+          "ecclift_separates": true
+        },
+        {
+          "name": "atlas_n7_cospec_65",
+          "n": 7,
+          "lap_separates": false,
+          "rwse_separates": true,
+          "ecclift_separates": true
+        },
+        {
+          "name": "atlas_n7_cospec_66",
+          "n": 7,
+          "lap_separates": false,
+          "rwse_separates": true,
+          "ecclift_separates": true
+        }
+      ]
+    }
+  },
+  "verdict": "POSITIVE: EccLift separates >=1 cospectral pair that BOTH plain-Lap and RWSE tie -> not a duplicate feature.",
+  "cost": {
+    "ecclift_sec_per_graph_avg": 0.002522645049998573,
+    "distL_spectrum_of_lift_sec_per_graph_avg": 0.0028795295100007934,
+    "note": "EccLift is BFS-only (no eigensolver); the counterpart distance-Laplacian SPECTRUM of the lift pays an eigendecomposition."
+  }
+}

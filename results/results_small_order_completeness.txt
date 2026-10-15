@@ -1,0 +1,9 @@
+EccLift completeness on connected graphs of order 2..7 (networkx graph atlas)
+order | connected graphs | distinct EccLift values | collision pairs
+    2 |                1 |                       1 |               0
+    3 |                2 |                       2 |               0
+    4 |                6 |                       6 |               0
+    5 |               21 |                      21 |               0
+    6 |              112 |                     112 |               0
+    7 |              853 |                     853 |               0
+TOTAL: 995 graphs, 995 distinct EccLift values, 0 collision pairs (all orders pooled) -> complete: True

@@ -1,0 +1,355 @@
+{
+  "generated": "full BREC separation audit for EccLift",
+  "brec_pairs_total": 800,
+  "leak_guard_K": 4,
+  "totals": {
+    "n_pairs": 400,
+    "plain-Lap_separates": 213,
+    "RWSE_separates": 198,
+    "ET(G)_separates": 73,
+    "EccLift_separates": 247,
+    "ecclift_leak_or_undefined": 10,
+    "both_Lap_and_RWSE_tie": 187,
+    "ecclift_separates_where_both_tie": 56
+  },
+  "per_category": {
+    "Basic": {
+      "n_pairs": 60,
+      "plain-Lap_separates": 60,
+      "RWSE_separates": 57,
+      "ET(G)_separates": 15,
+      "EccLift_separates": 56,
+      "both_Lap_and_RWSE_tie": 0,
+      "ecclift_separates_where_both_tie": 0
+    },
+    "Regular": {
+      "n_pairs": 100,
+      "plain-Lap_separates": 50,
+      "RWSE_separates": 50,
+      "ET(G)_separates": 13,
+      "EccLift_separates": 98,
+      "both_Lap_and_RWSE_tie": 50,
+      "ecclift_separates_where_both_tie": 49
+    },
+    "Extension": {
+      "n_pairs": 100,
+      "plain-Lap_separates": 100,
+      "RWSE_separates": 91,
+      "ET(G)_separates": 38,
+      "EccLift_separates": 86,
+      "both_Lap_and_RWSE_tie": 0,
+      "ecclift_separates_where_both_tie": 0
+    },
+    "CFI": {
+      "n_pairs": 100,
+      "plain-Lap_separates": 3,
+      "RWSE_separates": 0,
+      "ET(G)_separates": 7,
+      "EccLift_separates": 7,
+      "both_Lap_and_RWSE_tie": 97,
+      "ecclift_separates_where_both_tie": 7
+    },
+    "4-Vertex": {
+      "n_pairs": 20,
+      "plain-Lap_separates": 0,
+      "RWSE_separates": 0,
+      "ET(G)_separates": 0,
+      "EccLift_separates": 0,
+      "both_Lap_and_RWSE_tie": 20,
+      "ecclift_separates_where_both_tie": 0
+    },
+    "Distance-Regular": {
+      "n_pairs": 20,
+      "plain-Lap_separates": 0,
+      "RWSE_separates": 0,
+      "ET(G)_separates": 0,
+      "EccLift_separates": 0,
+      "both_Lap_and_RWSE_tie": 20,
+      "ecclift_separates_where_both_tie": 0
+    }
+  },
+  "strictly_new_pairs": [
+    {
+      "category": "Regular",
+      "pair_id": 110,
+      "n0": 16
+    },
+    {
+      "category": "Regular",
+      "pair_id": 112,
+      "n0": 25
+    },
+    {
+      "category": "Regular",
+      "pair_id": 113,
+      "n0": 25
+    },
+    {
+      "category": "Regular",
+      "pair_id": 114,
+      "n0": 25
+    },
+    {
+      "category": "Regular",
+      "pair_id": 115,
+      "n0": 25
+    },
+    {
+      "category": "Regular",
+      "pair_id": 116,
+      "n0": 25
+    },
+    {
+      "category": "Regular",
+      "pair_id": 117,
+      "n0": 25
+    },
+    {
+      "category": "Regular",
+      "pair_id": 118,
+      "n0": 26
+    },
+    {
+      "category": "Regular",
+      "pair_id": 119,
+      "n0": 26
+    },
+    {
+      "category": "Regular",
+      "pair_id": 120,
+      "n0": 26
+    },
+    {
+      "category": "Regular",
+      "pair_id": 121,
+      "n0": 26
+    },
+    {
+      "category": "Regular",
+      "pair_id": 122,
+      "n0": 26
+    },
+    {
+      "category": "Regular",
+      "pair_id": 123,
+      "n0": 28
+    },
+    {
+      "category": "Regular",
+      "pair_id": 124,
+      "n0": 28
+    },
+    {
+      "category": "Regular",
+      "pair_id": 125,
+      "n0": 29
+    },
+    {
+      "category": "Regular",
+      "pair_id": 126,
+      "n0": 29
+    },
+    {
+      "category": "Regular",
+      "pair_id": 127,
+      "n0": 29
+    },
+    {
+      "category": "Regular",
+      "pair_id": 128,
+      "n0": 29
+    },
+    {
+      "category": "Regular",
+      "pair_id": 129,
+      "n0": 29
+    },
+    {
+      "category": "Regular",
+      "pair_id": 130,
+      "n0": 29
+    },
+    {
+      "category": "Regular",
+      "pair_id": 131,
+      "n0": 29
+    },
+    {
+      "category": "Regular",
+      "pair_id": 132,
+      "n0": 29
+    },
+    {
+      "category": "Regular",
+      "pair_id": 133,
+      "n0": 29
+    },
+    {
+      "category": "Regular",
+      "pair_id": 134,
+      "n0": 29
+    },
+    {
+      "category": "Regular",
+      "pair_id": 135,
+      "n0": 29
+    },
+    {
+      "category": "Regular",
+      "pair_id": 136,
+      "n0": 29
+    },
+    {
+      "category": "Regular",
+      "pair_id": 137,
+      "n0": 29
+    },
+    {
+      "category": "Regular",
+      "pair_id": 138,
+      "n0": 29
+    },
+    {
+      "category": "Regular",
+      "pair_id": 139,
+      "n0": 29
+    },
+    {
+      "category": "Regular",
+      "pair_id": 140,
+      "n0": 29
+    },
+    {
+      "category": "Regular",
+      "pair_id": 141,
+      "n0": 29
+    },
+    {
+      "category": "Regular",
+      "pair_id": 142,
+      "n0": 29
+    },
+    {
+      "category": "Regular",
+      "pair_id": 143,
+      "n0": 29
+    },
+    {
+      "category": "Regular",
+      "pair_id": 144,
+      "n0": 29
+    },
+    {
+      "category": "Regular",
+      "pair_id": 145,
+      "n0": 35
+    },
+    {
+      "category": "Regular",
+      "pair_id": 146,
+      "n0": 35
+    },
+    {
+      "category": "Regular",
+      "pair_id": 147,
+      "n0": 35
+    },
+    {
+      "category": "Regular",
+      "pair_id": 148,
+      "n0": 35
+    },
+    {
+      "category": "Regular",
+      "pair_id": 149,
+      "n0": 35
+    },
+    {
+      "category": "Regular",
+      "pair_id": 150,
+      "n0": 35
+    },
+    {
+      "category": "Regular",
+      "pair_id": 151,
+      "n0": 35
+    },
+    {
+      "category": "Regular",
+      "pair_id": 152,
+      "n0": 35
+    },
+    {
+      "category": "Regular",
+      "pair_id": 153,
+      "n0": 35
+    },
+    {
+      "category": "Regular",
+      "pair_id": 154,
+      "n0": 35
+    },
+    {
+      "category": "Regular",
+      "pair_id": 155,
+      "n0": 35
+    },
+    {
+      "category": "Regular",
+      "pair_id": 156,
+      "n0": 35
+    },
+    {
+      "category": "Regular",
+      "pair_id": 157,
+      "n0": 35
+    },
+    {
+      "category": "Regular",
+      "pair_id": 158,
+      "n0": 35
+    },
+    {
+      "category": "Regular",
+      "pair_id": 159,
+      "n0": 35
+    },
+    {
+      "category": "CFI",
+      "pair_id": 289,
+      "n0": 52
+    },
+    {
+      "category": "CFI",
+      "pair_id": 291,
+      "n0": 38
+    },
+    {
+      "category": "CFI",
+      "pair_id": 303,
+      "n0": 56
+    },
+    {
+      "category": "CFI",
+      "pair_id": 305,
+      "n0": 80
+    },
+    {
+      "category": "CFI",
+      "pair_id": 309,
+      "n0": 66
+    },
+    {
+      "category": "CFI",
+      "pair_id": 315,
+      "n0": 82
+    },
+    {
+      "category": "CFI",
+      "pair_id": 317,
+      "n0": 40
+    }
+  ],
+  "verdict": "POSITIVE (tail-concentrated): EccLift separates 56 BREC pair(s) that BOTH plain-Lap AND RWSE tie -> strictly-new separation.",
+  "scope_note": "SEPARATION / expressiveness only. No property-prediction accuracy claim."
+}
